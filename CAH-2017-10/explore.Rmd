@@ -1,0 +1,27 @@
+---
+title: "Exploring: CAH, October"
+author: "Your Name"
+date: "`r Sys.Date()`"
+format: html_document
+---
+
+```{r}
+
+library(tidyverse)
+load("data/survey.rda")
+
+```
+
+# What would we like to look at?
+
+- GGPLOT and DPLYR
+- USE MORE VERBS!
+    - `filter()`
+
+```{r}
+
+str(survey)
+
+```
+
+Let's discuss in-line code.

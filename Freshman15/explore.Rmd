@@ -1,0 +1,48 @@
+---
+title: "Exploring: The Dreaded Freshman 15"
+author: "Your Name"
+date: "`r Sys.Date()`"
+format: html_document
+---
+
+```{r}
+
+library(tidyverse)
+load("data/fifteen.rda")
+
+```
+
+# Understanding the Problem
+
+**Question:*8 The freshman 15 - is it real or is it myth?
+
+Using a data set of sampled freshman, what can we learn about the
+dreaded freshman 15?
+
+Consider:
+
+- Distribution of weight gain/loss
+    - Stratified by gender
+- Is there a correlation between someone's starting weight and their
+  delta?
+  
+# Distribution of weight gain/loss
+
+```{r}
+
+str(fifteen)
+
+```
+
+# Correlation: Weight Change ~ Starting Weight
+
+
+```{r}
+
+head(fifteen)
+
+```
+
+# Further Resources
+
+[http://rmarkdown.rstudio.com/](http://rmarkdown.rstudio.com/)
